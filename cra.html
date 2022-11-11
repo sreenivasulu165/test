@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <body>
+            <form>
+            <h2>Contract form</h2>
+               <label> name*</label>
+               <input type="text"/><br><br>
+               <label>mobile No:</label>
+               <input type="tel" pattern="^[0-9]${10}" required><br><br> 
+               <label for="user name">user name</label>
+               <input type="text" maxlength="15" minlength="10"  required/><br><br>
+               <label for="password">password</label>
+               <input type="password" tabindex="1" pattern="^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[@$%&~]).{8,}$"/><br><br>
+               <label>selct*</label>
+               <select>
+                <option>''select one"</option>
+                <option>web development app</option>
+                <option>cloud development app</option>
+                <option>service development app</option>
+               </select><br><br>
+               <label>message*</label>
+               <textarea rows="2" cols="17"></textarea><br><br>
+               <input type="checkbox">please aceept the terms and conditions<br><br>
+               <input type="submit"/><br><br>
+               <input type="reset" value="cancel"/>
+               
+
+            </form>
+        </body>
+    </head>
+</html>
